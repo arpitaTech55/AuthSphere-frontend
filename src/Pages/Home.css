@@ -1,0 +1,59 @@
+/* Full page wrapper with gradient background */
+.home-wrapper {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+  padding: 50px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Header styling */
+.home-header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+}
+
+.home-header .subtitle {
+  font-size: 1.2rem;
+  color: #fff;
+  margin-top: 10px;
+}
+
+/* Quotes grid */
+.quotes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 25px;
+  margin-top: 40px;
+}
+
+/* Quote card styling */
+.quote-card {
+  background: #fff;
+  border-radius: 15px;
+  padding: 25px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s, box-shadow 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.quote-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+}
+
+.quote-text {
+  font-style: italic;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.quote-author {
+  font-weight: bold;
+  text-align: right;
+  margin-top: 15px;
+  color: #555;
+}
