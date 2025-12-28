@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Navigate, Routes, Route } from "react-router-dom";
 
 import Login from "./Pages/Login";
-import Signup from "./Pages/SignUp";
+import Signup from "./Pages/Signup";
 import Home from "./Pages/Home";
 import RefreshHandler from "./RefreshHandler";
 
